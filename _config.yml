@@ -40,7 +40,10 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+marked:
+  prependRoot: true      # 相对路径转绝对路径
+  postAsset: true        # 支持资源文件夹
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
